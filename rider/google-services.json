@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093362449254",
+    "project_id": "build-config-mewz",
+    "storage_bucket": "build-config-mewz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093362449254:android:c53543a8326038404366a7",
+        "android_client_info": {
+          "package_name": "com.mewz.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093362449254-c0efanmqamhoffeaid13e8kre8l87a1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlOrdK-5gqc-PD39t4AbhviATVRUZ8EC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093362449254-c0efanmqamhoffeaid13e8kre8l87a1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

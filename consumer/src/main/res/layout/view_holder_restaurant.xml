@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/margin_large">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvRestaurantImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_medium_2"
+        app:cardElevation="0dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivRestaurantImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_below="@id/cvRestaurantImage"
+        android:id="@+id/tvRestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KFC"
+        android:textSize="@dimen/text_regular_2x"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_medium_2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_below="@id/tvRestaurantName"
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinese"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_small"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_below="@id/tvCategory"
+        android:id="@+id/tvDeliveryPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500 MMK"
+        android:textSize="@dimen/text_small"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="@dimen/margin_small"/>
+    
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_below="@id/tvCategory"
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="4.5"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_below="@id/tvCategory"
+        android:id="@+id/tvStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/tvRating"
+        android:src="@drawable/baseline_star_gold_24dp"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"/>
+
+</RelativeLayout>
